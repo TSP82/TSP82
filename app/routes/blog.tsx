@@ -4,17 +4,9 @@ function Myblogs(){
     var rating = 4;
     let enabled = true;
     const pi = 2.14;
-<<<<<<< HEAD
- 
-    //alert("title: " + title);
-    console.log("Rating: " + rating);
- 
-=======
-
     //alert("title: " + title);
     console.log("Rating: " + rating);
 
->>>>>>> 56d22de8ca5b5937a33047271cb940680df5e91f
     //arrow funtion
     const getRating = () => {
         return <span>&#11088;&#11088;&#11088;&#11088;&#11088;</span>
@@ -34,24 +26,16 @@ function Myblogs(){
             <p><strong>ชื่นชอบ : </strong>{getRating2(rating)}</p>
             <p><strong>อื่นๆ : </strong>...</p>
             <h1 className="text-lg font-bold">Comments:</h1>
-<<<<<<< HEAD
-            <Comment
-            avatar="/images/owl.png"
-=======
-            <Comment 
-            avatar="/images/ไก่กลม1.jpg"
->>>>>>> 56d22de8ca5b5937a33047271cb940680df5e91f
+                        <Comment 
+            avatar="/images/ไก่กลม2.jpg"
             message="สวัสดีครับ"
             author="Karn Kai"
             top={true}
             />
-<<<<<<< HEAD
-            <Comment
-            avatar="/images/owl.png"
-=======
+
             <Comment 
             avatar="/images/ไก่กลม2.jpg"
->>>>>>> 56d22de8ca5b5937a33047271cb940680df5e91f
+
             message="หิวเมื่อไหร่ก็แวะมา"
             author="Karn Kai"
             top={false}
@@ -69,11 +53,7 @@ function Comment({avatar,message,author,top}){
                 width={40}/>
                 <p>{message}</p>
                 <i>{author}</i><hr/><br/>
-<<<<<<< HEAD
- 
-=======
 
->>>>>>> 56d22de8ca5b5937a33047271cb940680df5e91f
         </div>
     );
 }
@@ -82,13 +62,7 @@ function GetTop({top}){
         return '\u2764';
     return '';
     }
-<<<<<<< HEAD
- 
-}
- 
-=======
+
 
 }
-
->>>>>>> 56d22de8ca5b5937a33047271cb940680df5e91f
 export default Myblogs;
